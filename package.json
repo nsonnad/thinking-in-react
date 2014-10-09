@@ -1,0 +1,17 @@
+{
+  "name": "thinking-in-react",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify -t reactify src/index.jsx -o build/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "reactify": "~0.14.0",
+    "browserify": "~6.0.3",
+    "watchify": "~2.0.0"
+  }
+}
